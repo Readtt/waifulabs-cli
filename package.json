@@ -1,0 +1,37 @@
+{
+  "name": "waifulabs-cli",
+  "version": "1.1.1",
+  "description": "An unofficial CLI for WaifuLabs",
+  "main": "bin/waifulabs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Readtt/waifulabs-cli.git"
+  },
+  "bin": {
+    "@hk420/waifulabs": "bin/waifulabs",
+    "waifulabs": "bin/waifulabs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "WaifuLabs",
+    "waifulabs-cli",
+    "ai"
+  ],
+  "author": "HK",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "waifulabs": "^0.3.0"
+  }
+}
